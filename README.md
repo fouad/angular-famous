@@ -1,6 +1,10 @@
-# famous-angular
+# angular-famous
 
 Easily add Famous components/containers in your existing angular app.
+
+### installation
+
+`bower install --save angular-famous`
 
 ### container usage
 
