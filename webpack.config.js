@@ -7,7 +7,7 @@ module.exports = {
   },
   output: {
     path: __dirname + '/dist',
-    filename: 'famous-angular.js',
+    filename: 'angular-famous.js',
   },
   plugins: [
   ],
