@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Angular Famous Test</title>
+  <style>
+    fa-container,
+    .fa-container {
+      display: block;
+      background: red;
+      width: 50%;
+      height: 20%;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div ng-controller="MainCtrl">
+    <fa-container
+      id="de843059-f0a4-4c92-8bc8-01d1f35a81c6"
+      ng-repeat="item in items track by $index">
+    </fa-container>
+  </div>
+
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../dist/bundle.js"></script>
+  <script src="./demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "angular-famous",
+  "version": "0.0.1",
+  "description": "Angular module to include Famous BEST framework in your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouad/angular-famous.git"
+  },
+  "author": "Fouad Matin <fm@fouad.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouad/angular-famous/issues"
+  },
+  "homepage": "https://github.com/fouad/angular-famous",
+  "devDependencies": {
+    "babel-core": "^5.6.4",
+    "babel-loader": "^5.1.4",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.11"
+  },
+  "dependencies": {
+    "famous-framework": "git://github.com/Famous/framework.git"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "angular-famous",
+  "main": "dist/angular-famous.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fouad/angular-famous",
+  "authors": [
+    "Fouad Matin <fm@fouad.co>"
+  ],
+  "description": "Angular module to include Famous BEST framework in your app",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "famous"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1"
+  }
+}
